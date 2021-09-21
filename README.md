@@ -133,7 +133,7 @@ $ index.html
 
 ## 🦸 Autor
 
-<a href="https://www.instagram.com/dvduardo/">
+<a href="https://www.linkedin.com/in/dvduardo/">
  <img style="border-radius: 50%;" src="https://shortest.link/18iL" width="100px;" alt=""/>
  <br />
  <sub><b>David Silva</b></sub></a> <a href="https://www.instagram.com/dvduardo/" title="Autor"></a>
