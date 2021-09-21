@@ -26,7 +26,7 @@ import static properties.Properties.header_padrao;
 
 public class CommonStepsDefinitions {
 
-    HashMap<String,String> bodyData = new HashMap<>();
+    HashMap<String, String> bodyData = new HashMap<>();
 
     @Dado("^que \"([^\"]*)\" esta em andamento$")
     public void NewActorCreate(String value) {
@@ -54,7 +54,7 @@ public class CommonStepsDefinitions {
 
     @Quando("^eu criar uma requisicao \"([^\"]*)\" com sucesso$")
     public void post_to(String type, Map<String, String> data) {
-        System.out.println("\n\nQuando eu criar uma requisicao "+type+"\n\n");
+        System.out.println("\n\nQuando eu criar uma requisicao " + type + "\n\n");
         if (type.equalsIgnoreCase("post")) {
             theActorInTheSpotlight().attemptsTo(
                     PostTo.withData(data, header_padrao, Endpoints.Post_to)
@@ -71,9 +71,9 @@ public class CommonStepsDefinitions {
             );
         }
         if (type.equalsIgnoreCase("patch")) {
-            bodyData.put("title",data.get("title"));
+            bodyData.put("title", data.get("title"));
             theActorInTheSpotlight().attemptsTo(
-                    PatchTo.withParametre(bodyData,data, header_padrao, Endpoints.Patch_to)
+                    PatchTo.withParametre(bodyData, data, header_padrao, Endpoints.Patch_to)
             );
         }
 
