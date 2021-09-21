@@ -8,7 +8,7 @@
     <img alt="Stargazers" src="https://img.shields.io/github/stars/dvduardo/SerenityBDDBasic?style=social">
   </a>
 
-  <a href="https://rocketseat.com.br">
+  <a href="https://www.linkedin.com/in/dvduardo/">
     <img alt="Feito pela David" src="https://img.shields.io/badge/feito%20por-David-%237519C1">
   </a>
 
