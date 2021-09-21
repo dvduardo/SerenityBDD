@@ -14,7 +14,7 @@
 
 </p>
 <h1 align="center">
-    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/banner.png" />
+    <img alt="SerenityBDD" title="#SerenityBDD" src="https://shortest.link/1578" />
 </h1>
 
 <h4 align="center"> 
@@ -28,7 +28,7 @@ Ele informa não apenas quais testes foram executados, mas, o que é mais import
 quais requisitos foram testados.
 
 Esse projeto foi desenvolvido para ajudar outros QA's e DEV a entender um pouco mais de como funciona o Serenity BDD juntamente com
-o [ScreenPlay Partner](https://blog.onedaytesting.com.br/screenplay-pattern/), trazendo uma ideia até nova para alguns desenvolvedores de testes funcionais.
+o [ScreenPlay Partner](https://blog.onedaytesting.com.br/screenplay-pattern/) para o desenvolvimento de testes automatizados para backend.
 
 ---
 
@@ -127,16 +127,17 @@ $ index.html
 
 1. Faça um **fork** do projeto.
 2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
-3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+3. Salve as alterações e crie uma mensagem de commit: `git commit -m "feature: mensagem"`
 4. Envie as suas alterações: `git push origin my-feature`
 ---
 
 ## 🦸 Autor
 
-<a href="https://www.linkedin.com/in/dvduardo/">
- <img style="border-radius: 50%;" src="https://shortest.link/18iL" width="100px;" alt=""/>
+<a  align="center" href="https://www.linkedin.com/in/dvduardo/">
+ <img align="center" style="border-radius: 50%;" src="https://shortest.link/18iL" width="200px;"/>
  <br />
- <sub><b>David Silva</b></sub></a> <a href="https://www.instagram.com/dvduardo/" title="Autor"></a>
+<sub aria-label="center"><b>David Silva</b></sub></a> <a href="https://www.instagram.com/dvduardo/" title="Autor"></a>
+ <br />
  <br />
 
 [![Twitter Badge](https://img.shields.io/badge/-@dvd_uardo-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/dvd_uardo)](https://twitter.com/dvd_uardo) [![Linkedin Badge](https://img.shields.io/badge/-David-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/dvduardo/)](https://www.linkedin.com/in/dvduardo/)
