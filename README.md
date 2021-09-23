@@ -14,7 +14,7 @@
 
 </p>
 <h1 align="center">
-    <img alt="SerenityBDD" title="#SerenityBDD" src="https://shortest.link/1578" />
+    <img alt="SerenityBDD" title="#SerenityBDD" src="https://shortest.link/1b1Y" />
 </h1>
 
 <h4 align="center"> 
