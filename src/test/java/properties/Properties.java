@@ -6,5 +6,5 @@ import java.util.Map;
 
 public class Properties {
 
-    static public Map<String,Object> header_padrao = Headers.getHeaders();
+    static public Map<String, Object> header_padrao = Headers.getHeaders();
 }

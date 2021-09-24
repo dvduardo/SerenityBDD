@@ -1,0 +1,11 @@
+{
+  "title": "Happy Potter",
+  "body": "Filme fabuloso",
+  "duration": "120",
+  "cast": {
+    "redhead_boy": "Rony",
+    "girl": "Hermione",
+    "scar_boy": "Harry"
+  },
+  "userId": "1"
+}

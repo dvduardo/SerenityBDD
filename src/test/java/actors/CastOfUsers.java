@@ -1,11 +1,11 @@
 package actors;
 
-import net.serenitybdd.screenplay.actors.Cast;
-import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Ability;
+import net.serenitybdd.screenplay.Actor;
+import net.serenitybdd.screenplay.actors.Cast;
+import net.serenitybdd.screenplay.rest.abilities.CallAnApi;
 import net.thucydides.core.util.EnvironmentVariables;
 import stepdefinitions.TestEnvironment;
-import net.serenitybdd.screenplay.rest.abilities.CallAnApi;
 
 public class CastOfUsers extends Cast {
 
@@ -18,7 +18,7 @@ public class CastOfUsers extends Cast {
     @Override
     public Actor actorNamed(String actorName, Ability... abilities) {
         Actor trader = super.actorNamed(actorName, abilities);
-        trader.can(CallAnApi.at(testEnvironment.getRestAPIBaseUrl()));
+        trader.can(CallAnApi.at(testEnvironment.getRestAPIBaseUrl("dev")));
 
         return trader;
     }

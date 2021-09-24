@@ -10,8 +10,6 @@ public enum Endpoints {
 
     Delete_from("/posts/{id}");
 
-
-
     private final String path;
 
     Endpoints(String path) {

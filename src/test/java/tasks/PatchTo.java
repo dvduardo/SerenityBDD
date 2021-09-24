@@ -3,12 +3,12 @@ package tasks;
 import endpoints.Endpoints;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
-import net.serenitybdd.screenplay.rest.interactions.Delete;
 import net.serenitybdd.screenplay.rest.interactions.Patch;
 
 import java.util.HashMap;
 import java.util.Map;
 
+import static net.serenitybdd.rest.SerenityRest.lastResponse;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
 public class PatchTo implements Task {
@@ -40,6 +40,6 @@ public class PatchTo implements Task {
                                 .log().all()
                         )
         );
-
+        System.out.println("\n\n\nresponse_patch_requisition:\n" + lastResponse().asString());
     }
 }

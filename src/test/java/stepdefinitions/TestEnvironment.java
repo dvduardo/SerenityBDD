@@ -1,6 +1,5 @@
 package stepdefinitions;
 
-import net.serenitybdd.core.environment.EnvironmentSpecificConfiguration;
 import net.thucydides.core.util.EnvironmentVariables;
 
 
@@ -12,9 +11,17 @@ public class TestEnvironment {
         this.environmentVariables = environmentVariables;
     }
 
-    public String getRestAPIBaseUrl() {
-        String teste; //= EnvironmentSpecificConfiguration.from(environmentVariables).getProperty("environments.dev.url");
-        teste = "https://jsonplaceholder.typicode.com";
-        return teste;
+    public String getRestAPIBaseUrl(String environment) {
+        switch (environment) {
+            case "dev":
+                return environmentVariables.getProperty("environments.dev");
+            case "homol":
+                return environmentVariables.getProperty("environments.homol");
+            case "prod":
+                return environmentVariables.getProperty("environments.prod");
+
+            default:
+                return environmentVariables.getProperty("environments.dev");
+        }
     }
 }

@@ -1,4 +1,3 @@
-
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/dvduardo/SerenityBDDBasic">
 
@@ -23,19 +22,25 @@
 
 ## Um pouco sobre Serenity e o projeto desenvolvido
 
-[Serenity_BDD](https://serenity-bdd.github.io/theserenitybook/latest/index.html#) é uma biblioteca de código aberto que visa tornar a ideia de documentação viva uma realidade, ajudando você a escrever testes automatizados de aceitação e regressão mais limpos e mais fáceis de manter com mais rapidez. O Serenity também usa os resultados do teste para produzir relatórios narrativos ilustrados que documentam e descrevem o que seu aplicativo faz e como funciona. 
-Ele informa não apenas quais testes foram executados, mas, o que é mais importante,
-quais requisitos foram testados.
+[Serenity_BDD](https://serenity-bdd.github.io/theserenitybook/latest/index.html#) é uma biblioteca de código aberto que
+visa tornar a ideia de documentação viva uma realidade, ajudando você a escrever testes automatizados de aceitação e
+regressão mais limpos e mais fáceis de manter com mais rapidez. O Serenity também usa os resultados do teste para
+produzir relatórios narrativos ilustrados que documentam e descrevem o que seu aplicativo faz e como funciona. Ele
+informa não apenas quais testes foram executados, mas, o que é mais importante, quais requisitos foram testados.
 
-Esse projeto foi desenvolvido para ajudar outros QA's e DEV a entender um pouco mais de como funciona o Serenity BDD juntamente com
-o [ScreenPlay Partner](https://blog.onedaytesting.com.br/screenplay-pattern/) para o desenvolvimento de testes automatizados para backend.
+Esse projeto foi desenvolvido para ajudar outros QA's e DEV a entender um pouco mais de como funciona o Serenity BDD
+juntamente com o [ScreenPlay Partner](https://blog.onedaytesting.com.br/screenplay-pattern/) para o desenvolvimento de
+testes automatizados para backend.
 
 ---
 
 ## ⚙️ Funcionalidades
 
-Basicamente os testes desenvolvidos são bem simples apenas para mostrar a funcionalidade da ferramenta batendo em endpoints publicos disponibilizados pela [jsonplaceholder](https://jsonplaceholder.typicode.com/guide/).
-Temos os seguintes cenarios de teste, que podem ser facilmente encontrados na pasta [features](https://github.com/dvduardo/SerenityBDDBasic/blob/master/src/test/resources/features/Test.feature):
+Basicamente os testes desenvolvidos são bem simples apenas para mostrar a funcionalidade da ferramenta batendo em
+endpoints publicos disponibilizados pela [jsonplaceholder](https://jsonplaceholder.typicode.com/guide/). Temos os
+seguintes cenarios de teste, que podem ser facilmente encontrados na
+pasta [features](https://github.com/dvduardo/SerenityBDDBasic/blob/master/src/test/resources/features/Test.feature):
+
 ```bash
 Cenario:Batendo em um postTo
     Quando eu criar uma requisicao "post" com sucesso
@@ -79,6 +84,7 @@ Cenario:Batendo em um postTo
       | id | ERRO |
     E retorna "sucesso"
 ```
+
 ---
 
 ## 🚀 Como executar o projeto
@@ -86,8 +92,8 @@ Cenario:Batendo em um postTo
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Java](https://www.java.com/pt-BR/), [Maven](https://maven.apache.org),[Git](https://gitforwindows.org).
-Além disto é bom ter um editor para trabalhar com o código como [IntelliJ](https://www.jetbrains.com/pt-br/idea/)
+[Java](https://www.java.com/pt-BR/), [Maven](https://maven.apache.org),[Git](https://gitforwindows.org). Além disto é
+bom ter um editor para trabalhar com o código como [IntelliJ](https://www.jetbrains.com/pt-br/idea/)
 
 #### AGORA VAMOS EXECUTAR DE VERDADE 😀
 
@@ -129,6 +135,7 @@ $ index.html
 2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
 3. Salve as alterações e crie uma mensagem de commit: `git commit -m "feature: mensagem"`
 4. Envie as suas alterações: `git push origin my-feature`
+
 ---
 
 ## 🦸 Autor
@@ -147,7 +154,7 @@ $ index.html
 
 ## 📝 Licença
 
-
-Template do README feito pelo [Thiago Marinho](https://www.linkedin.com/in/tgmarinho/), disponibilizado pela equipe maravilhosa da [Rocketseat](https://blog.rocketseat.com.br/como-fazer-um-bom-readme/)
+Template do README feito pelo [Thiago Marinho](https://www.linkedin.com/in/tgmarinho/), disponibilizado pela equipe
+maravilhosa da [Rocketseat](https://blog.rocketseat.com.br/como-fazer-um-bom-readme/)
 
 ---
