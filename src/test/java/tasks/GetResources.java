@@ -4,10 +4,10 @@ import endpoints.Endpoints;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.rest.interactions.Get;
-import net.serenitybdd.screenplay.rest.interactions.Post;
 
 import java.util.Map;
 
+import static net.serenitybdd.rest.SerenityRest.lastResponse;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
 public class GetResources implements Task {
@@ -36,6 +36,6 @@ public class GetResources implements Task {
                                 .log().all()
                         )
         );
-
+        System.out.println("\n\n\nresponse_get_requisition:\n" + lastResponse().asString());
     }
 }

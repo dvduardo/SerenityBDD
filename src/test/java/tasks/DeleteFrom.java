@@ -4,10 +4,10 @@ import endpoints.Endpoints;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.rest.interactions.Delete;
-import net.serenitybdd.screenplay.rest.interactions.Get;
 
 import java.util.Map;
 
+import static net.serenitybdd.rest.SerenityRest.lastResponse;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
 public class DeleteFrom implements Task {
@@ -36,6 +36,6 @@ public class DeleteFrom implements Task {
                                 .log().all()
                         )
         );
-
+        System.out.println("\n\n\nresponse_delete_requisition:\n" + lastResponse().asString());
     }
 }
