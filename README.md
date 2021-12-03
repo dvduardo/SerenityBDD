@@ -195,7 +195,7 @@ $ index.html
 ## 🦸 Autor
 
 <a  align="center" href="https://www.linkedin.com/in/dvduardo/">
- <img align="center" style="border-radius: 50%;" src="https://shortest.link/18iL" width="200px;"/>
+ <img align="center" style="border-radius: 50%;" src="https://user-images.githubusercontent.com/12902233/144551077-c4283258-c24a-4fa6-8b90-8ab0109bfc5e.png" width="200px;"/>
  <br />
 <sub aria-label="center"><b>David Silva</b></sub></a> <a href="https://www.instagram.com/dvduardo/" title="Autor"></a>
  <br />
